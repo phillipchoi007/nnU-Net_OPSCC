@@ -1,6 +1,9 @@
-# nnU-Net_OPSCC
+#nnU-Net_OPSCC
 Brief code for training multi-modal deep learning segmentation models of oropharyngeal squamous cell carcinoma on CT and MRI using nnU-Net framework. 
 Details of the background and running inference is here (https://github.com/MIC-DKFZ/nnUNet). 
+
+#The overall workflow of multi-modal segmentation model
+![FIG2](https://github.com/phillipchoi007/nnU-Net_OPSCC/assets/40045450/dcb539dd-1f04-41c5-89d8-49b55338b041)
 
 #activate virtual environment
 cd ~/Documents 
