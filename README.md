@@ -30,6 +30,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3
 
 ##3d_fullres model training (be aware of the GPU memory as each line of code takes up around 4-8 GB)
 #CT (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task201_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task201_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task201_tonsil 2 --npz
@@ -37,6 +38,7 @@ CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task201_tonsil 3 
 CUDA_VISIBLE_DEVICES=2 nnUNet_train 3d_fullres nnUNetTrainerV2 Task201_tonsil 4 --npz
 
 #MR (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task301_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task301_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 3d_fullres nnUNetTrainerV2 Task301_tonsil 2 --npz
@@ -44,6 +46,7 @@ CUDA_VISIBLE_DEVICES=2 nnUNet_train 3d_fullres nnUNetTrainerV2 Task301_tonsil 3 
 CUDA_VISIBLE_DEVICES=2 nnUNet_train 3d_fullres nnUNetTrainerV2 Task301_tonsil 4 --npz
 
 #MR/CT (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=0 nnUNet_train 3d_fullres nnUNetTrainerV2 Task401_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=0 nnUNet_train 3d_fullres nnUNetTrainerV2 Task401_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=0 nnUNet_train 3d_fullres nnUNetTrainerV2 Task401_tonsil 2 --npz
@@ -52,6 +55,7 @@ CUDA_VISIBLE_DEVICES=2 nnUNet_train 3d_fullres nnUNetTrainerV2 Task401_tonsil 4 
 
 ##2d model training 
 #CT (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=2 nnUNet_train 2d nnUNetTrainerV2 Task201_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=2 nnUNet_train 2d nnUNetTrainerV2 Task201_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=3 nnUNet_train 2d nnUNetTrainerV2 Task201_tonsil 2 --npz
@@ -59,6 +63,7 @@ CUDA_VISIBLE_DEVICES=3 nnUNet_train 2d nnUNetTrainerV2 Task201_tonsil 3 --npz
 CUDA_VISIBLE_DEVICES=0 nnUNet_train 2d nnUNetTrainerV2 Task201_tonsil 4 --npz
 
 #MRI (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=2 nnUNet_train 2d nnUNetTrainerV2 Task301_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=3 nnUNet_train 2d nnUNetTrainerV2 Task301_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=3 nnUNet_train 2d nnUNetTrainerV2 Task301_tonsil 2 --npz
@@ -66,6 +71,7 @@ CUDA_VISIBLE_DEVICES=3 nnUNet_train 2d nnUNetTrainerV2 Task301_tonsil 3 --npz
 CUDA_VISIBLE_DEVICES=0 nnUNet_train 2d nnUNetTrainerV2 Task301_tonsil 4 --npz
 
 #MRI/CT (five cross-validation)
+
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 2d nnUNetTrainerV2 Task401_tonsil 0 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 2d nnUNetTrainerV2 Task401_tonsil 1 --npz
 CUDA_VISIBLE_DEVICES=1 nnUNet_train 2d nnUNetTrainerV2 Task401_tonsil 2 --npz
