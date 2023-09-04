@@ -12,9 +12,9 @@ Details of the background and running inference is here (https://github.com/MIC-
 
 #set environment variables (run everytime prior to each training)
 
-    export nnUNet_raw_data_base="/mnt/ysnas/supraclavicular_CT_done/nnunet/nnunet/nnUNet_raw_data_base"
-    export nnUNet_preprocessed="/mnt/ysnas/supraclavicular_CT_done/nnunet/nnunet/preprocessed"
-    export RESULTS_FOLDER="/mnt/ysnas/supraclavicular_CT_done/nnunet/nnunet/nnUNet_trained_models"
+    export nnUNet_raw_data_base="/path/to/nnunet/nnunet/nnUNet_raw_data_base"
+    export nnUNet_preprocessed="path/to/nnunet/nnunet/preprocessed"
+    export RESULTS_FOLDER="path/to/nnunet/nnunet/nnUNet_trained_models"
 
 #Task201: CT model
 #Task301: MR model
